@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
@@ -27,59 +26,59 @@ const PortfolioSection = () => {
   const portfolioItems: PortfolioItem[] = [
     {
       id: '1',
-      image: '/lovable-uploads/b512142f-70b4-468a-8a0d-3f1c963d7de1.png',
-      title: 'Degradê Lateral Precision',
-      description: 'Corte degradê com transição lateral perfeita e acabamento impecável',
-      category: 'degrade'
+      image: '/lovable-uploads/d8659bfe-785d-420b-8c82-62b3211892f7.png',
+      title: 'Degradê com Design Artístico',
+      description: 'Corte degradê com desenho lateral personalizado e acabamento premium',
+      category: 'especial'
     },
     {
       id: '2',
-      image: '/lovable-uploads/2b7f904b-29a4-481f-abfd-4c8fa9a7fee1.png',
-      title: 'Degradê Clássico Premium',
-      description: 'Estilo clássico com degradê suave e textura natural',
+      image: '/lovable-uploads/cd92776c-e351-4b87-bac7-1e3b3d0115d0.png',
+      title: 'Degradê Texturizado Premium',
+      description: 'Estilo moderno com textura natural e transição perfeita',
       category: 'degrade'
     },
     {
       id: '3',
-      image: '/lovable-uploads/c3843bd5-8b74-46c4-ac4a-3ee5fb27d823.png',
-      title: 'Design Artístico Lateral',
-      description: 'Corte com desenho personalizado e técnica avançada',
-      category: 'especial'
-    },
-    {
-      id: '4',
-      image: '/lovable-uploads/830081c0-3669-4c45-8468-e0e6e8c99396.png',
-      title: 'Corte com Luzes & Reflexos',
-      description: 'Coloração profissional com mechas e reflexos naturais',
-      category: 'especial'
-    },
-    {
-      id: '5',
-      image: '/lovable-uploads/0dd14b62-63f8-4f21-b5d1-3b896a6ced69.png',
-      title: 'Corte Social Ultra Baixo',
-      description: 'Estilo clean e minimalista para o ambiente profissional',
+      image: '/lovable-uploads/1ef80206-748b-4c46-aa0c-d2be4bcf2ed2.png',
+      title: 'Corte Social Clássico',
+      description: 'Estilo clean e profissional com acabamento impecável',
       category: 'social'
     },
     {
-      id: '6',
-      image: '/lovable-uploads/65750810-48a7-442d-9133-ef9a6377dd46.png',
-      title: 'Degradê Moderno Suave',
-      description: 'Transição suave com acabamento contemporâneo',
+      id: '4',
+      image: '/lovable-uploads/70b4672c-5b8a-44f7-a1f2-bf70536c27ea.png',
+      title: 'Degradê Lateral Suave',
+      description: 'Transição lateral gradual com topo volumoso',
       category: 'degrade'
+    },
+    {
+      id: '5',
+      image: '/lovable-uploads/4c9b9b12-f2d8-41df-87ac-9e4fbfc3aa52.png',
+      title: 'Degradê Moderno Preciso',
+      description: 'Corte contemporâneo com linhas definidas e acabamento perfeito',
+      category: 'degrade'
+    },
+    {
+      id: '6',
+      image: '/lovable-uploads/86ef221c-6b0d-4cd1-bb12-3d081e1ae255.png',
+      title: 'Combo Premium: Corte + Barba',
+      description: 'Serviço completo com corte degradê e barba modelada profissionalmente',
+      category: 'barba'
     },
     {
       id: '7',
-      image: '/lovable-uploads/cc5211d7-59d4-4abe-a0ca-e6f3c41a7dfc.png',
-      title: 'Degradê Lateral Elegante',
-      description: 'Corte elegante com transição lateral profissional',
-      category: 'degrade'
+      image: '/lovable-uploads/da9af2b6-cb92-44c6-89bc-6b4b02938f7f.png',
+      title: 'Degradê com Risco Lateral',
+      description: 'Design exclusivo com risco lateral e degradê preciso',
+      category: 'especial'
     },
     {
       id: '8',
-      image: '/lovable-uploads/242388e1-ab19-415c-8f9b-baaef59b2711.png',
-      title: 'Combo Completo: Corte + Barba',
-      description: 'Serviço completo com corte degradê e barba modelada',
-      category: 'barba'
+      image: '/lovable-uploads/bbbdf962-45a2-4586-9a36-b94ac94634a9.png',
+      title: 'Degradê Clássico Refinado',
+      description: 'Estilo atemporal com transição suave e acabamento elegante',
+      category: 'degrade'
     }
   ];
 
